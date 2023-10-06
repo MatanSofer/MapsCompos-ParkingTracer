@@ -7,5 +7,5 @@ import androidx.room.PrimaryKey
 data class ParkingSpotEntity(
     val lat: Double,
     val lng: Double,
-    @PrimaryKey val id:Int? = null
+    @PrimaryKey val id: Int? = null
 )
